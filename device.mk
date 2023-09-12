@@ -258,7 +258,12 @@ $(call soong_config_set,qtipower,mode_ext_lib,//$(DEVICE_PATH):libpowermode-ext-
 # Product characteristic
 PRODUCT_CHARACTERISTICS := nosdcard,tablet
 
+# QTI
+TARGET_COMMON_QTI_COMPONENTS += \
+    perf
+
 # QSPA
+
 PRODUCT_PACKAGES += \
     vendor.qti.qspa-service
 
