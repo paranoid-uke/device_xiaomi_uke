@@ -260,7 +260,8 @@ PRODUCT_CHARACTERISTICS := nosdcard,tablet
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS += \
-    perf
+    perf \
+    wfd
 
 # QSPA
 
@@ -370,7 +371,6 @@ PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.kiwi_v2.ini_symlink \
     firmware_WCNSS_qcom_cfg.qca6750.ini_symlink
 
-# Inherit from the proprietary files makefile.
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/uke/uke-vendor.mk)
 
