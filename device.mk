@@ -262,6 +262,7 @@ PRODUCT_CHARACTERISTICS := nosdcard,tablet
 # QTI
 TARGET_COMMON_QTI_COMPONENTS += \
     av \
+    overlay \
     perf \
     wfd \
     wlan
