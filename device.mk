@@ -179,7 +179,6 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.pen.events.sh \
-    init.qcom.recovery.rc \
     init.sm8635.rc
 
 # IPA
@@ -262,6 +261,7 @@ PRODUCT_CHARACTERISTICS := nosdcard,tablet
 # QTI
 TARGET_COMMON_QTI_COMPONENTS += \
     av \
+    init \
     overlay \
     perf \
     wfd \
